@@ -4,27 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema de Cadastro de Aluno</title>
-    <link rel="stylesheet" href="style.css"
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+    <div class="container">
+        <h1>Cadastro de Alunos</h1>
 
-<div class = "container">
-    <h1> Cadastro de Alunos </h1>
+        <form id = "cadastroForm">
+            <input type="text" id="nomeAluno" placeholder="Nome Do Aluno" required>
+            <input type="text" id="IdadeAluno" placeholder="Idade Do Aluno" required>
+            <input type="text" id="cpfAluno" placeholder="CPF Do Aluno" required>
+            <input type="text" id="contatoAluno" placeholder="Número Do Aluno" required>
+            <button type= "submit" id="btnSalvar"> Cadastrar </button>
 
-    <form id = "CadastroForm">
-        <input type = "Text" id="nomeAluno" placeholder="Nome do Aluno" required>
-        <input type = "Text" id="idadeAluno" placeholder="Idade do Aluno" required>
-        <button type= "submit" id = "btnSalvar"> Cadastrar </button>
-    </form>
+        </form>
 
     <hr>
+    <h2>Lista de Inscritos</h2>
+    <ul id="listaAlunos">
 
-    <h2> Lista de inscritos </h2>
-    <ul id="listas de incritos">
     </ul>
     </div>
-    <script src = "script.js"> </script>
-    
+    <script src="script.js"> </script>
 </body>
 </html>

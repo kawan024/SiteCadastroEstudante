@@ -1,40 +1,40 @@
+
 body{
     font-family: sans-serif;
-    background-color: #f4f4f9;
+    background-color: rgb(63, 63, 63);
     display: flex;
     justify-content: center;
-    pudding: 50px;
+    padding: 50px;
 }
 
-.cotainer{
-    background: white;
+.container{
+    background: rgba(255, 255, 255, 0.836);
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(red, green, blue, alpha);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 300px;
 }
-
 form{
-    display:flex;
+    display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
 input, button{
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #5591b4;
     border-radius: 4px;
 }
 
 button{
-    background-color: aqua;
+    background-color: #28a745;
     color: white;
     cursor: pointer;
     border: none;
 }
 
 button:hover{
-    background-color: #218838;
+    background-color: #218828;
 }
 
 ul{
@@ -45,6 +45,7 @@ ul{
 li{
     background: #eee;
     margin-top: 5px;
+    padding: 8px;
     border-radius: 4px;
     display: flex;
     justify-content: space-between;
